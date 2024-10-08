@@ -1,0 +1,132 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    background-image: url('./images/real.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #FFD700;
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    border-bottom: 2px solid #ccc;
+}
+
+.header a {
+    text-decoration: none;
+    padding: 10px;
+    color: #FFD700;
+}
+
+.header a:hover {
+    background-color: black;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.image-item {
+    margin: 0 20px;
+}
+
+.image-item img {
+    height: 300px;
+    width: auto;
+    object-fit: cover;
+}
+
+.order-button {
+    background-color: black;
+    color: #FFD700;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.logo {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.icons img {
+    width: 35px;
+    height: auto;
+    margin-left: 1px;
+}
+
+.menu-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    border-bottom: 2px solid #ccc;
+}
+
+.menu-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+.menu-item {
+    display: flex;
+    border: 1px solid #FFD700;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 20px;
+    width: 400px;
+    text-align: left;
+}
+
+.menu-image {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.menu-details {
+    color: #FFD700;
+}
+
+.price {
+    color: white;
+    text-shadow: black;
+    font-weight: bold;
+}
